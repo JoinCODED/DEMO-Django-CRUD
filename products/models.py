@@ -7,4 +7,4 @@ class Product(models.Model):
     description = models.TextField()
 
     def __str__(self) -> str:
-        return f"{name}, {price}KD"
+        return f"{self.name}, {self.price}KD"
