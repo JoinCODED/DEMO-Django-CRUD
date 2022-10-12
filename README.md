@@ -20,7 +20,7 @@ We will be displaying our shiny new products on our website!
    - The `HttpResponse` should contain an `h1` tag that welcomes the user to the website.
 2. Go to `urls.py` and create a path for our home view.
    - Import our `get_home` view.
-   - Add a `path` that starts with `/`.
+   - Add a `path` that starts with `home/`.
 3. Go to `/` on your web browser and verify that you can see your `h1` tag.
 4. Commit and push your code.
 
@@ -36,7 +36,3 @@ We will be displaying our shiny new products on our website!
    - Add a `path` that starts with `products/` and contains an id in it.
 3. Go to `/products/YOUR_ID/` on your web browser and verify that you can see your product.
 4. Commit and push your code.
-
-## Detail Bonus
-
-Make each line of your product details show up as a separate line on the web browser (hint: use [`p` tags](https://www.w3schools.com/tags/tag_p.asp)).
